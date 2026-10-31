@@ -6,7 +6,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     category: "Facturation & Paiement au Maroc",
     question: "Quels moyens de paiement acceptez-vous au Maroc ?",
     answer:
-      "Shape accepte les paiements en DHS via WhatsApp : virement bancaire, CIH / Attijari / BMCE, cash à la livraison selon ville, et parfois paiement mobile. Les tarifs affichés (299 / 449 / 599 DHS) sont annuels, sans euro.",
+      "Au Maroc : virement Attijariwafa bank ou CIH Bank, ou dépôt CashPlus / Wafacash. Hors Maroc / MRE : carte bancaire en euros via Stripe. Transmettez le reçu au concierge Shape pour activer. Les tarifs packs (299 / 449 / 599 DHS) sont annuels ; l'international passe par les liens Stripe (€).",
   },
   {
     id: "pay-2",

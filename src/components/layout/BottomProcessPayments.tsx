@@ -140,8 +140,8 @@ export function BottomProcessPayments() {
         </div>
 
         <p className="mt-5 text-center text-xs text-muted">
-          Paiements locaux Maroc (Orange Money, Cash Plus, Wafacash, banques) +
-          Visa / Mastercard / Stripe · validation via WhatsApp Shape.
+          Maroc : RIB Attijariwafa / CIH + Cash Plus / Wafacash · International :
+          Visa / Mastercard via Stripe (€) · reçu au concierge Shape.
         </p>
       </div>
     </section>

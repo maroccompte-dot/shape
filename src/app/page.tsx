@@ -80,7 +80,7 @@ const STEPS = [
   {
     n: "02",
     title: "Payez via WhatsApp",
-    text: "Virement CIH, Attijari, BMCE ou mode convenu avec le concierge Shape.",
+    text: "Maroc : RIB Attijariwafa / CIH ou CashPlus / Wafacash. International : Stripe (€).",
   },
   {
     n: "03",

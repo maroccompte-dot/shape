@@ -546,7 +546,7 @@ function PanelCommande() {
     {
       n: "2",
       t: "Payez en DHS",
-      d: "Virement CIH / Attijari / BMCE ou mode WhatsApp.",
+      d: "RIB Attijari / CIH, CashPlus / Wafacash, ou Stripe (€).",
     },
     {
       n: "3",

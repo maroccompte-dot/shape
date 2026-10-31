@@ -47,6 +47,12 @@ const QUICK = [
     href: "/contact",
   },
   {
+    label: "Payer (RIB / Stripe)",
+    reply:
+      "Maroc : RIB Attijariwafa ou CIH + CashPlus/Wafacash. International : Stripe (€). J'ouvre les options de paiement sur la page abonnement.",
+    href: "/abonnement-iptv#packs",
+  },
+  {
     label: "Commander WhatsApp",
     reply:
       "Parfait — je prépare un message WhatsApp pour finaliser votre Abonnement IPTV Maroc.",
@@ -113,6 +119,18 @@ export function FloatingAgentDock() {
     let href: string | undefined;
 
     if (
+      lower.includes("rib") ||
+      lower.includes("virement") ||
+      lower.includes("attijari") ||
+      lower.includes("cih") ||
+      lower.includes("paiement") ||
+      lower.includes("stripe") ||
+      lower.includes("payer")
+    ) {
+      reply =
+        "Maroc : virement Attijariwafa ou CIH (RIB sur /abonnement-iptv), ou dépôt CashPlus / Wafacash. Hors Maroc : carte Stripe (€). Envoyez le reçu au concierge pour activer.";
+      href = "/abonnement-iptv#packs";
+    } else if (
       lower.includes("prix") ||
       lower.includes("pack") ||
       lower.includes("abonnement") ||
@@ -120,7 +138,7 @@ export function FloatingAgentDock() {
       lower.includes("premium")
     ) {
       reply =
-        "Tarifs Shape : Pro 299 DHS, Extra 449 DHS, Premium 599 DHS / an (sans euro). J'ouvre la page abonnement.";
+        "Tarifs Shape : Pro 299 DHS, Extra 449 DHS, Premium 599 DHS / an. International : Stripe en euros. J'ouvre la page abonnement.";
       href = "/abonnement-iptv";
     } else if (lower.includes("install") || lower.includes("smart") || lower.includes("tutoriel")) {
       reply =
