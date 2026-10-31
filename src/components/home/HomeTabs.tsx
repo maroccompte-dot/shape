@@ -141,7 +141,7 @@ export function HomeTabs() {
                   </span>
                   <span className="min-w-0">
                     <span className="flex items-center gap-2">
-                      <span className="text-[10px] font-bold text-purple/70">
+                      <span className="text-[10px] font-bold text-violet-300">
                         0{i + 1}
                       </span>
                       <span className="truncate text-sm font-semibold">
@@ -497,7 +497,7 @@ function PanelMulti() {
 
         <div className="space-y-3">
           <div className="rounded-2xl border border-white/8 bg-[#161b22] p-5">
-            <p className="text-xs font-semibold uppercase tracking-wider text-purple">
+            <p className="text-xs font-semibold uppercase tracking-wider text-violet-300">
               Pack Pro
             </p>
             <p className="mt-1 text-lg font-bold text-white">1 appareil unique</p>
@@ -506,7 +506,7 @@ function PanelMulti() {
             </p>
           </div>
           <div className="rounded-2xl border border-purple/40 bg-purple/10 p-5">
-            <p className="text-xs font-semibold uppercase tracking-wider text-purple">
+            <p className="text-xs font-semibold uppercase tracking-wider text-violet-200">
               Extra & Premium
             </p>
             <p className="mt-1 text-lg font-bold text-white">
@@ -623,7 +623,7 @@ function PanelCommande() {
 
 function Badge({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-flex rounded-full border border-purple/30 bg-purple/10 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-purple">
+    <span className="inline-flex rounded-full border border-purple/40 bg-purple/15 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-violet-200">
       {children}
     </span>
   );

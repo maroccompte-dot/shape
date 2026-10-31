@@ -46,7 +46,7 @@ export function HomeFaq() {
                 className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left"
               >
                 <span>
-                  <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wider text-purple">
+                  <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wider text-violet-300">
                     {item.category}
                   </span>
                   <span className="font-semibold text-white">{item.question}</span>

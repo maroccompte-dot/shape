@@ -279,7 +279,7 @@ export default function HomePage() {
               key={s.n}
               className="relative rounded-2xl border border-border bg-[#161b22] p-5"
             >
-              <span className="font-display text-3xl font-bold text-purple/40">
+              <span className="font-display text-3xl font-bold text-violet-300/90">
                 {s.n}
               </span>
               <h3 className="mt-2 font-semibold text-white">{s.title}</h3>
@@ -491,7 +491,7 @@ export default function HomePage() {
               href={`/blog/${post.slug}`}
               className="rounded-2xl border border-border bg-[#161b22] p-5 transition hover:border-purple/40"
             >
-              <p className="text-xs font-semibold uppercase tracking-wider text-purple">
+              <p className="text-xs font-semibold uppercase tracking-wider text-violet-300">
                 {post.category}
               </p>
               <h3 className="mt-2 font-display text-lg font-bold">{post.title}</h3>
