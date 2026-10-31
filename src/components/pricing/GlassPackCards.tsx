@@ -2,7 +2,6 @@ import Link from "next/link";
 import { Check, Sparkles } from "lucide-react";
 import { PACKS } from "@/lib/packs";
 import { whatsappLink } from "@/lib/constants";
-import { PaymentOptions } from "@/components/pricing/PaymentOptions";
 import clsx from "clsx";
 
 type Mode = "teaser" | "full";
@@ -83,7 +82,6 @@ export function GlassPackCards({ mode = "teaser" }: { mode?: Mode }) {
                       {pack.highlightNote}
                     </div>
                   ) : null}
-                  <PaymentOptions packId={pack.id} />
                 </>
               )}
 
